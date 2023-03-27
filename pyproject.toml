@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "twitter-stock-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["semajextah <32229146+semajextah@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "twitter_stock_analyzer"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.3"
+snscrape = "^0.6.2.20230320"
+tqdm = "^4.65.0"
+yfinance = "^0.2.13"
+yahoo-fin = "^0.8.9.1"
+matplotlib = "^3.7.1"
+pandas-datareader = "^0.10.0"
+pysimplegui = "^4.60.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
